@@ -1,0 +1,37 @@
+.admin-home{
+    padding:20px 60px;
+}
+.admin-home .data-category{
+    width:100%;
+    margin-top:20px;
+}
+.admin-home .data-category .category{
+    display: flex;
+    flex-wrap: wrap;
+    gap:30px;
+    justify-content: space-evenly;
+}
+.admin-home .data-category .category li{
+    min-width:180px;
+    min-height:60px;
+    padding:12px 24px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    display:flex;
+    gap:10px;
+}
+.admin-home .data-category .category li span{
+    padding:10px 14px;
+    border-radius: 4px;
+    background-color: rgb(30, 153, 85);
+    font-size: 22px;
+    color:white;
+}
+.admin-home .data-category .category li h3{
+    font-size: 24px;
+    font-weight: 500;
+}
+.admin-home .data-category .category li p{
+    font-size: 14px;
+}

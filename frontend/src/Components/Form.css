@@ -1,0 +1,40 @@
+.layout{
+    width:100%;
+    padding:30px 0px;
+}
+.layout h2{
+    font-size: 20px;
+}
+.layout form .input{
+    width:100%;
+    margin:10px 0px;
+}
+.layout form button{
+    padding: 12px 20px;
+    border:none;
+    color:white;
+    border-radius: 3px;
+    outline:none;
+    margin-top:20px;
+}
+.layout .form-group{
+    width:100%;
+    margin-top:12px;
+}
+.layout .form-group label{
+    display: block;
+    font-size: 14px;
+}
+.layout .form-group input{
+    width:100%;
+    margin:4px 0px;
+    height:42px;
+    padding:10px;
+    border:0.5px solid black;
+    border-radius: 3px;
+    outline: none;
+}
+.layout form .error-message{
+    color:red;
+    font-size: 12px;
+}

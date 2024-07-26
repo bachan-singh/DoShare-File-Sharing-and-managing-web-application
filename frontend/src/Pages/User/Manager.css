@@ -1,0 +1,73 @@
+.manager{
+    width:100%;
+    height:calc(100vh - 13vh);
+    display: flex;
+}
+.manager .manager-navigation{
+    flex:20%;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    background-color: rgb(236, 236, 236);
+}
+.manager .manager-navigation ul{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.manager .manager-navigation ul li{
+    cursor: pointer;
+    display: flex;
+    gap:6px;
+    font-size: 16px;
+}
+.manager .manager-navigation ul li:hover{
+    color:rgb(80, 78, 146);
+}
+.manager .manager-navigation ul li span{
+    font-weight: 700;
+}
+
+.manager .manager-navigation ul .shareBtn {
+  background-color: #525ad1;
+  padding:12px 20px;
+  border:none;
+  outline:none;
+  color:White;
+  border-radius: 12px;
+  
+}
+
+@media (min-width: 768px) {
+  .shareBtn {
+    padding: 16px 48px;
+  }
+}
+
+@media (max-width:1200px){
+    .manager{
+        flex-direction: column;
+    }  
+    .manager .manager-navigation{
+        flex:content;
+        justify-content: center;
+        align-items: center;
+        padding-top: 0px;
+    }  
+    .manager .manager-navigation ul{
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap:30px;
+    }
+}
+
+@media (max-width:650px){
+    
+    .manager .manager-navigation ul{
+        padding:20px 50px;
+    }
+}
+.manager .manager-content{
+    flex: 80%;
+    padding:20px 60px;
+}

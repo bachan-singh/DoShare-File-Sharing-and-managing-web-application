@@ -1,0 +1,45 @@
+.user-list{
+    width:100%;
+    padding:30px 60px;
+}
+.user-list h2{
+    font-size: 22px;
+    margin:10px auto;
+}
+.user-list table{
+    max-width:90%;
+    min-width: 80%;
+    margin: auto;
+    text-align: justify;
+    margin-top:20px;
+    background-color: white;
+}
+.user-list table th{
+    background-color:rgb(43, 104, 56);
+    color:white;
+    padding:12px 20px;
+}
+.user-list table td{
+    padding: 12px 20px;
+}
+.user-list table tbody tr:nth-child(even) {
+    background-color:rgb(230, 230, 230);
+}
+.user-list table tbody tr:nth-child(odd) {
+    background-color:rgb(255, 255, 255);
+}
+.user-list table tbody button{
+    font-size: 28px;
+    color: rgb(179, 11, 11);
+    outline: none;
+    border:none;
+    background: none;
+    cursor: pointer;
+}
+
+
+/* Manage File CSS */
+.manage{
+    width:100%;
+    padding:30px 60px;
+}

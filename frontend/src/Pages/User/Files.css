@@ -1,0 +1,30 @@
+.files{
+    padding:20px 60px;
+}
+.files-category{
+    display: flex;
+    flex-wrap: wrap;
+    gap:30px;
+    margin-top:20px;
+    justify-content: space-evenly;
+}
+.files-category .category{
+    min-width:260px;
+    min-height:80px;
+    padding:12px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    display:flex;
+    gap:10px;
+}
+.category .icon{
+    padding:16px 18px;
+    border-radius: 8px;
+    font-size: 20px;
+    color:rgb(228, 228, 228)
+}
+.category .type h3{
+    font-weight: 400;
+    font-size: 20px;
+}

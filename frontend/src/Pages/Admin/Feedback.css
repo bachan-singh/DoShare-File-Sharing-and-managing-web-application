@@ -1,0 +1,68 @@
+.feedback{
+    width:100%;
+    margin:30px 0px;
+}
+.feedback h2{
+    font-size: 22px;
+    margin:10px auto;
+}
+.feedback ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap:50px;
+    max-width: 60%;
+    margin:auto;
+    justify-content:left;
+}
+.feedback ul li{
+    min-width:40%;
+    min-height:70px;
+    background-color: white;
+    padding:12px 20px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.feedback ul li .heading{
+    display: flex;
+    justify-content: space-between;
+}
+.feedback .heading .username{
+    display: flex;
+    gap:10px;
+}
+.feedback .heading .username span{
+    display: flex;
+    align-items: center;
+    padding:6px 12px;
+    border-radius: 50%;
+    background-color: rgb(30, 112, 30);
+    color:White;
+}
+.feedback ul li .heading .username .info h3{
+    font-size: 16px;
+    font-weight: 600;
+}
+.feedback ul li .heading .username .info p{
+    font-size: 12px;
+    font-weight: 400;
+}
+.feedback .heading .operation{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    font-size: 18px;
+}
+.feedback .heading .operation .share{
+    color:rgb(50, 105, 50);
+}
+.feedback .heading .operation .delete{
+    color:rgb(80, 6, 6);
+}
+.feedback .content{
+    padding-top:10px;
+    font-size: 14px;
+}
+@media(max-width:1000px){
+    .feedback ul{
+        max-width: 96%;
+    }
+}

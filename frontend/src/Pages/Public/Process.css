@@ -1,0 +1,58 @@
+.process{
+    width: 100%;
+    padding:50px 60px;
+    text-align: center;
+}
+.process .content span{
+    color:rgb(80, 78, 146);
+    font-size: 14px;
+}
+.process .content h2{
+    font-size: 48px;
+}
+.process .process-container{
+    width:70%;
+    margin:auto;
+    margin-top:20px;
+}
+.process .process-container ul li{
+    list-style: none;
+    background-color: white;
+    margin:20px auto;
+    text-align: start;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+.process .process-container ul li h3{
+    padding:12px 20px;
+    display: flex;
+    cursor: pointer;
+    background-color: rgba(195, 198, 243, 0.479);
+}
+.process .process-container ul li h3 span{
+    font-weight: 800;
+    margin-right: 6px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:rgb(80, 78, 146);
+}
+.process .process-container ul li p{
+    padding: 12px 20px;
+}
+
+@media (max-width:850px){
+    .process{
+        padding: 40px 30px;
+    }
+    .process .content h2{
+        font-size: 26px;
+    }
+    .process .process-container{
+        width:100%;
+    }
+    .process .process-container h3{
+        font-size: 16px;
+    }
+}
