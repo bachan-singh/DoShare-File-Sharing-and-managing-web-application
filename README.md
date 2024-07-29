@@ -34,20 +34,6 @@ This project is designed to provide a secure solution for sharing and printing u
 - **Authentication**: Role-based
 - **File Storage**: Locally
 
-## Screenshots
-
-### Home Page
-![Home Page]([link-to-image](https://drive.google.com/file/d/1NBNheo3yLigRjALQA_aO1ig5nsFmwd7O/view?usp=sharing))
-
-### User Dashboard
-![User Dashboard]([link-to-image](https://drive.google.com/file/d/1bYcazYRFyEs7Tt0T6CnkLC4s5FHixUPN/view?usp=sharing))
-
-### Sign Up Page
-![Sign Up Page]([link-to-image](https://drive.google.com/file/d/1pluvhbyQ5CNYDasg60rs9uxNKkLNYQVb/view?usp=sharing))
-
-### Admin Dashboard
-![Admin Dashboard]([link-to-image](https://drive.google.com/file/d/1Fc3vOxX4GlHYkYaYhKqZH4qt6Unegw02/view?usp=sharing))
-
 ## Installation and Setup
 
 ### Prerequisites
