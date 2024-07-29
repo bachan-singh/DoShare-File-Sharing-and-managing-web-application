@@ -123,7 +123,7 @@ This project is licensed under the MIT License.
 
 For any questions or suggestions, feel free to contact me at:
 - Email: bachansingh1407@gmail.com
-- GitHub: [bachankapoor](https://github.com/bachankapoo)
+- GitHub: [bachankapoor](https://github.com/bachankapoor)
 
 ---
 
